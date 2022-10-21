@@ -1,0 +1,15 @@
+name: simple_code_gen_example
+description: Example Project to run the code generation example.
+version: 1.0.0
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  simple_code_gen_annotations:
+    path: ../annotations
+
+dev_dependencies:
+  build_runner: ^2.3.2
+  lints: ^2.0.0
+  simple_code_gen:
+    path: ..

@@ -1,0 +1,7 @@
+name: simple_code_gen_annotations
+description: Annotations for the simple code generation example
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+

@@ -1,0 +1,14 @@
+name: simple_code_gen
+description: A simple coding example for writing code generators.
+version: 1.0.0
+homepage: https://github.com/simplifit-michael/source_gen_example
+
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies:
+  analyzer: ^5.1.0
+  build: ^2.3.1
+  source_gen: ^1.2.6
+  simple_code_gen_annotations:
+    path: ./annotations
